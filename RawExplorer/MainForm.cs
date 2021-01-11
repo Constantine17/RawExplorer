@@ -42,13 +42,10 @@ namespace RawExplorer
             try
             {
                 var image = Image.FromFile((GridData.Rows[e.RowIndex].Field<RawFile>("File")).RawPath);
-                pictureBox.Image = image;
-            
+                pictureBox.Image = image;          
             }
             catch
             { }
-
-            //pictureBox.Image
         }
 
         private void btnOpenDirectory_Click(object sender, EventArgs e)
