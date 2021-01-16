@@ -8,18 +8,18 @@ namespace RawExplorer.Classes
 {
     public class RawFile
     {
-        public string JpgPath { get; }
+        public string PicPath { get; }
         public string RawPath { get; }
 
-        public RawFile(string jpg, string raw)
+        public RawFile(string pic, string raw) // возможно придеться изменить
         {
-            JpgPath = jpg;
+            PicPath = pic;
             RawPath = raw;
         }
 
         public override string ToString()
         {
-            return JpgPath;
+            return PicPath;
         }
     }
 }

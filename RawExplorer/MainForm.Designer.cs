@@ -50,14 +50,14 @@ namespace RawExplorer
             this.Grid.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.Chacked});
             this.Grid.GridColor = System.Drawing.Color.White;
-            this.Grid.Location = new System.Drawing.Point(15, 53);
-            this.Grid.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.Grid.Location = new System.Drawing.Point(11, 43);
+            this.Grid.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Grid.Name = "Grid";
             this.Grid.ReadOnly = true;
             this.Grid.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
             this.Grid.RowHeadersWidth = 51;
             this.Grid.RowTemplate.Height = 24;
-            this.Grid.Size = new System.Drawing.Size(728, 519);
+            this.Grid.Size = new System.Drawing.Size(546, 422);
             this.Grid.TabIndex = 0;
             this.Grid.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.Grid_CellContentClick);
             // 
@@ -73,16 +73,18 @@ namespace RawExplorer
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(12, 12);
+            this.textBox1.Location = new System.Drawing.Point(9, 10);
+            this.textBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(653, 20);
+            this.textBox1.Size = new System.Drawing.Size(491, 20);
             this.textBox1.TabIndex = 1;
             // 
             // btnOpenDirectory
             // 
-            this.btnOpenDirectory.Location = new System.Drawing.Point(671, 12);
+            this.btnOpenDirectory.Location = new System.Drawing.Point(503, 10);
+            this.btnOpenDirectory.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnOpenDirectory.Name = "btnOpenDirectory";
-            this.btnOpenDirectory.Size = new System.Drawing.Size(75, 23);
+            this.btnOpenDirectory.Size = new System.Drawing.Size(56, 19);
             this.btnOpenDirectory.TabIndex = 2;
             this.btnOpenDirectory.Text = "button1";
             this.btnOpenDirectory.UseVisualStyleBackColor = true;
@@ -94,22 +96,23 @@ namespace RawExplorer
             // 
             // pictureBox
             // 
-            this.pictureBox.Location = new System.Drawing.Point(758, 281);
+            this.pictureBox.Location = new System.Drawing.Point(568, 228);
+            this.pictureBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.pictureBox.Name = "pictureBox";
-            this.pictureBox.Size = new System.Drawing.Size(454, 290);
+            this.pictureBox.Size = new System.Drawing.Size(340, 236);
             this.pictureBox.TabIndex = 3;
             this.pictureBox.TabStop = false;
             // 
             // MainForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1220, 569);
+            this.ClientSize = new System.Drawing.Size(1310, 630);
             this.Controls.Add(this.pictureBox);
             this.Controls.Add(this.btnOpenDirectory);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.Grid);
-            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "MainForm";
             this.Text = "Main Form";
             ((System.ComponentModel.ISupportInitialize)(this.Grid)).EndInit();
